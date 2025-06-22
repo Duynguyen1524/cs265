@@ -1,4 +1,7 @@
 grades: function.c main.c
-    gcc -o grades main.c function.c
+	 gcc -o grades main.c function.c
+
 run: grades
-    ./grades
+	 ./grades
+clean:
+	 rm -f grades *.o
