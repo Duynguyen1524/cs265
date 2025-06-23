@@ -21,6 +21,5 @@ Use `gcc` (e.g., via MSYS2 or Linux):
 
 ```bash
 gcc main.c function.c -o grades
-
-
+## How to run
 ./grades data.txt
